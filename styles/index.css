@@ -12,3 +12,8 @@
 .slide-down-leave-active {
   transition: all var(--slidev-transition-duration) linear;
 } */
+
+.slidev-code-wrapper {
+  min-width: 300px;
+  overflow: hidden;
+}
