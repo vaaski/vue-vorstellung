@@ -1,5 +1,6 @@
 ---
 layout: center
+class: text-center
 ---
 
 <img src="/Vue.js_Logo_2.svg.png" alt="Vue.js" class="h-18 w-auto mx-auto my-6" />
