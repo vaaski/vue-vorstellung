@@ -37,3 +37,7 @@ src: ./slides-sections/nuxt.md
 ---
 src: ./slides-sections/capacitor.md
 ---
+
+---
+src: ./slides-sections/outro.md
+---

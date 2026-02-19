@@ -13,7 +13,7 @@ layout: two-cols-header
 <v-clicks>
 
 - Native Runtime von Ionic für Webanwendungen
-- Verpackt Anwendungen aus Vue, Nuxt oder Vite als iOS- und Android-App
+- Compiled Anwendungen aus Vue, Nuxt oder Vite als iOS- und Android-App
 - Zugriff auf Gerätefunktionen über Plugins (z. B. Kamera, GPS, Dateisystem)
 - Eine gemeinsame Codebasis für Web und Mobile
 
@@ -38,19 +38,14 @@ layout: two-cols-header
 
 ::right::
 
-```txt
-Vue App (HTML/CSS/JS)
-        |
-     build
-        v
-     dist/
-        |
-    cap sync
-        v
-ios/ + android/
-        |
- Native APIs via Plugins
+```mermaid
+flowchart TD
+    B["Vue App (HTML/CSS/JS)"]
+    B --> C["dist/"]
+    C --> D["cap sync"]
+    D --> E["ios + android"]
 ```
+
 
 ---
 layout: two-cols-header
