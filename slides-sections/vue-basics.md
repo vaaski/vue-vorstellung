@@ -48,7 +48,7 @@ layout: two-cols-header
 
 ::right::
 
-```vue [vue-example.vue] {all|4|9|8|all}{lines:true}
+```vue [vue-example.vue] {all|2|7|6|all}{lines:true}
 <script setup>
 const count = ref(0)
 </script>
