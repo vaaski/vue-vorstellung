@@ -19,6 +19,13 @@ layout: two-cols-header
 
 </v-clicks>
 
+<!--
+- Capacitor ist eine Runtime/Bridge, kein eigenes UI-Framework.
+- Ziel ist eine gemeinsame Codebasis fuer Web und Mobile.
+- Plugins geben Zugriff auf native Funktionen wie Kamera, GPS, Push.
+- Typischer Einsatz: Teams mit Web-Stack wollen mobile Apps liefern.
+-->
+
 ---
 layout: two-cols-header
 ---
@@ -46,6 +53,13 @@ flowchart TD
     D --> E["ios + android"]
 ```
 
+
+<!--
+- Build-Output der Web-App wird in native Projekte uebernommen.
+- App laeuft in einer WebView, eingebettet in eine native Shell.
+- Plugins uebersetzen zwischen JavaScript und nativen APIs.
+- Dadurch bleibt der groesste Teil der Logik im Web-Code.
+-->
 
 ---
 layout: two-cols-header
@@ -75,9 +89,16 @@ layout: two-cols-header
 - Eine stark plattformspezifische UI/UX erfordert zusätzliche Anpassungen
 - Bei Plugin-Lücken kann die Entwicklung eigener nativer Plugins notwendig sein
 - Build-, Signatur- und Store-Prozesse bleiben weiterhin komplex
-- Bei grafikintensiven Anwendungen können Performance-Grenzen auftreten
+
 
 </v-clicks>
+
+<!--
+- Vorteile: schneller Start, Wiederverwendung von Vue/TS, viele Standard-Plugins.
+- Nachteile: Native UI/UX erfordert zusaetzliches Feintuning.
+- Bei Plugin-Luecken sind eigene native Erweiterungen noetig.
+- Performance-Grenzen bei grafikintensiven Apps moeglich.
+-->
 
 ---
 layout: center
@@ -96,3 +117,9 @@ layout: center
 7. In Xcode bzw. Android Studio bauen, testen und signieren
 
 </v-clicks>
+
+<!--
+- Workflow: Web entwickeln, Build erzeugen, syncen, dann in Xcode/Android Studio.
+- Store-/Signatur-Prozesse bleiben wie bei nativen Apps.
+- Iteration laeuft oft schneller ueber Web-Preview, native Builds fuer echte Tests.
+-->

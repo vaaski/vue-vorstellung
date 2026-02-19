@@ -176,6 +176,14 @@ const objectOfAttrs = {
 
 </v-click>
 
+<!--
+- Templates sind HTML-nah und damit fuer viele sofort lesbar.
+- Interpolation `{{ }}` rendert Daten im Text, Attribute laufen ueber `v-bind` bzw. `:`.
+- Directives sind Vue-spezifische Attribute und kapseln Logik im Markup.
+- Datenfluss ist deklarativ: Template beschreibt das Ergebnis, nicht die DOM-Schritte.
+- Reaktivitaet sorgt dafuer, dass sich die Anzeige automatisch anpasst.
+-->
+
 ---
 layout: center
 ---

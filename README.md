@@ -30,19 +30,19 @@ Learn more about Slidev at the [documentation](https://sli.dev/).
 
 ## 5 Meta Framework Nuxt
 
-- [ ] Was ist das? 📦😂
-- [ ] Warum? 🤔😂
-- [ ] Wieso? ❓😂
-- [ ] Was macht das? 🛠️😂
+- [x] Was ist das? 📦😂
+- [x] Warum? 🤔😂
+- [x] Wieso? ❓😂
+- [x] Was macht das? 🛠️😂
 
 ---
 
 ## 10 Capacitor Basics
 
-- [ ] Was ist das? 📱😂
-- [ ] Wie funktioniert das? ⚙️😂
-- [ ] Vor/Nachteile ➕➖😂
-- [ ] Development workflow 🔄😂
+- [x] Was ist das? 📱😂
+- [x] Wie funktioniert das? ⚙️😂
+- [x] Vor/Nachteile ➕➖😂
+- [x] Development workflow 🔄😂
 
 ---
 
