@@ -17,5 +17,5 @@ hideInToc: true
 
 # Übersicht
 
-<Toc />
+<Toc columns=2 />
 
